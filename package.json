@@ -1,13 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Rock Paper Scissors",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "node server.js",
-    "build": "node server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
