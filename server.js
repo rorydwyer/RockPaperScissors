@@ -5,7 +5,7 @@ const socketio = require("socket.io");
 
 const RpsGame = require('./rps-game');
 
-const clientPath = `${__dirname}/../client`;
+const clientPath = `${__dirname}/client`;
 console.log(`Serving static from ${clientPath}`);
 
 const app = express();
