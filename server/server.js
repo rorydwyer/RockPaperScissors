@@ -66,5 +66,4 @@ io.on('connection', (sock) => {
 });
 
 // Start server and log errors to console
-server.listen(process.env.PORT || 5000, 
-	() => console.log("Server is running..."));
+server.listen(process.env.PORT || 5000);
